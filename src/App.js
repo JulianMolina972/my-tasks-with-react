@@ -1,5 +1,6 @@
 import { Task } from './components/Task';
 import './App.css';
+import { TaskForm } from './components/TaskForm';
 
 
 
@@ -11,7 +12,8 @@ function App() {
       </header>
       <main className='principal-list-tasks'>
         <h2>My Tasks</h2>
-        <Task text='learning React' />
+        <TaskForm />
+        {/* <Task text='learning React' /> */}
       </main>
     </div>
   );
